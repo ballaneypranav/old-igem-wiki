@@ -257,7 +257,7 @@ span {
   margin-bottom: 30px;
 }
 
-#hero .btn-get-started {
+#hero .btn {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
@@ -269,14 +269,27 @@ span {
   transition: 0.5s;
   margin-bottom: 30px;
   border: 2px solid #71c55d;
+  text-decoration: none;
+}
+
+#hero .btn-get-started {
   background: #fff;
   color: #71c55d;
-  text-decoration: none;
 }
 
 #hero .btn-get-started:hover {
   background: #71c55d;
   color: #fff;
+}
+
+#hero .btn-support {
+  background: #71c55d;
+  color: #fff;
+}
+
+#hero .btn-support:hover {
+  background: #fff;
+  color: #71c55d;
 }
 
 #hero .btns a {
