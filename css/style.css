@@ -1339,6 +1339,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #designation {
   font-size: 1.1rem;
   line-height: 1.5;
+  margin-bottom: 0;
 }
 
 #contact .info {
